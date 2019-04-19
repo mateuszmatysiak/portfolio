@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="pl" />
+		<meta name="author" content="Mateusz Matysiak" />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Portfolio - Mateusz Matysiak" />
+		<meta name="keywords" content="web design, professional web design, html5, css3" />
+			<title>Portfolio - Mateusz Matysiak</title>
+		<link rel="stylesheet" href="./css/style.css" type="text/css">
+	</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+	<script>
+		$(document).ready(function() { 
+
+			$('a[href^="#"]').on('click', function(event) {
+			
+				var target = $( $(this).attr('href') );
+			
+				if( target.length ) {
+					event.preventDefault();
+					$('html, body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+				}
+			});
+		});
+	</script>
+	<body>
+	<a id="id-home"></a>
+		<header>
+			<div class="container">
+				<div id="menu">
+					<h1>Portfolio</h1>
+				</div>
+				<nav>
+					<ul>
+						<li class="current"><a href="#id-home">Home</a></li>
+						<li><a href="#id-about">O mnie</a></li>
+						<li><a href="#id-skills">Umiejętności</a></li>
+						<li><a href="#id-projects">Projekty</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<section id="welcome">
+			<div class="container">
+				<h1>Mateusz Matysiak</h1>
+				<p>Student II roku Informatyki Stosowanej</p>
+				<a href="#id-home"><i class="arrow-down"></i></a>
+		  </div>
+		</section>
+		
+		<section id="contact">
+			<div class="container">
+			
+				<a id="id-about"></a>
+				
+				<div class="box">
+					<a href="https://github.com/mateuszmatysiak"><img src="./img/logo_github.png" alt="Github Logo" class="social-icon"></a>
+					<a href="https://www.linkedin.com/in/mateusz-matysiak/"><img src="./img/logo_linkedin.png" alt="Linkedin Logo" class="social-icon"></a>
+					<a href="mailto:mateuszmatysiak96@gmail.com"><img src="./img/logo_email.png" alt="Email Logo" class="social-icon"></a>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="container">
+				<div class="box">
+					<img src="./img/face.png">
+				</div>
+				<aside id="description">
+					<h1>Kim jestem?</h1>
+					<p>Jestem Mateusz. Mam 22 lata i pochodzę z Bydgoszczy. Aktualnie studiuję informatykę stosowaną na Uniwersytecie Technologiczno-Przyrodniczym w Bydgoszczy. Przez ten czas poznałem wiele nowych technologii i języków programowania. Najbardziej do gustu przypadły mi technologie frontend.</p>
+				</aside>
+			</div>
+		</section>
+		
+		<a id="id-skills"></a>
+		
+		<section id="knowledge">
+			<div class="container">
+				<h1>Umiejętności</h1>
+					<div class="box">
+						<img src="./img/logo_html.png">
+						<h3>HTML</h3>
+						<p>Znajomość budowy struktury dokumentu HTML, umiejętność stosowania semantycznych znaczników</p>
+					</div>
+					<div class="box">
+						<img src="./img/logo_css.png">
+						<h3>CSS</h3>
+						<p>Płynne poruszanie się w CSS, brak trudności przy tworzeniu szablonów Responsive Web Design </p>
+					</div>
+					<div class="box-2">
+						<img src="./img/logo_js.png">
+						<h3>JavaScript</h3>
+						<p>Na ten moment poziom początkujący</p>
+					</div>
+					<div class="box-2">
+						<img src="./img/logo_brush.png">
+						<h3>Graphic Design</h3>
+						<p>Podstawowe poczucie estetyki, kreatywność w tworzeniu, mnóstwo pomysłów, sprawne korzystanie z programów takich jak Gimp</p>
+					</div>
+			</div>
+		</section>
+		
+		<a id="id-projects"></a>
+		
+		<section id="projects">
+			<div class="container">
+				<h1>Projekty</h1>
+					<div class="box">
+						<a href="#"><img src="./img/qm.jpg"></a>
+						<h3>Projekt nr.1</h3>
+						<p>Jest to projekt na temat...Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.</p>
+					</div>
+					<div class="box">
+						<a href="#"><img src="./img/qm.jpg"></a>
+						<h3>Projekt nr.2</h3>
+						<p>Jest to projekt na temat...Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.</p>
+					</div>
+					<div class="box">
+						<a href="#"><img src="./img/qm.jpg"></a>
+						<h3>Projekt nr.3</h3>
+						<p>Jest to projekt na temat...Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.</p>
+					</div>
+					<div class="box-2">
+						<p>Inne projekty</p>
+						<a href="https://github.com/mateuszmatysiak"><img src="./img/logo_github.png" alt="Github Logo" class="social-icon"></a>
+					</div>
+			</div>
+		</section>
+		
+		<footer>
+			<p>Mateusz Matysiak, Copyright &copy; 2019</p>
+		</footer>
+		
+	</body>
+</html>
