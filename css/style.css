@@ -23,7 +23,7 @@ body{
 header{
 	background: #35424a;
 	color: #ffffff;
-	padding-top: 30px;
+	padding-top: 20px;
 	min-height: 70px;
 	border-bottom: #339999 1px solid;
 }
@@ -68,7 +68,7 @@ header a:hover{
 /* Welcome */
 
 #welcome{
-	min-height: 730px;
+	min-height: 735px;
 	background: url('../img/tlo.jpg') no-repeat 0 -300px;
 	text-align: center;
 	color: #DDDDDD;
@@ -82,22 +82,6 @@ header a:hover{
 
 #welcome p{
 	font-size: 20px;
-}
-
-#welcome i{
-	position: fixed;
-	border: solid #0b0e15;
-	border-width: 0 3px 3px 0;
-	display: inline-block;
-	padding: 12px;
-	float: right;
-	margin-left: 880px;
-	margin-top: 380px;
-}
-
-#welcome .arrow-down {
-	transform: rotate(-135deg);
-	-webkit-transform: rotate(-135deg);
 }
 
 /* Contact */
@@ -169,7 +153,7 @@ aside#description p {
 }
 
 #knowledge h1{
-	padding-top: 95px;
+	margin-top: 70px;
 	font-size: 50px;
 }
 
@@ -189,7 +173,7 @@ aside#description p {
 	float: left;
 	width: 48%;
 	padding: 10px;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 #knowledge .box h3, .box-2 h3{
@@ -211,7 +195,7 @@ aside#description p {
 }
 
 #projects h1{
-	padding-top: 95px;
+	margin-top: 70px;
 	font-size: 60px;
 }
 
@@ -229,6 +213,8 @@ aside#description p {
 #projects .box p{
 	margin-top: 20px;
 	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #projects .box img{
@@ -245,7 +231,7 @@ aside#description p {
 	float: left;
 	width: 100%;
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 120px;
 }
 
 #projects .box-2 p{
@@ -274,9 +260,12 @@ footer{
 	text-align: center;
 }
 
+
 /* Media Queries */
 
 @media(max-width: 1680px){
+	/* Global */
+	
 	header #menu,
 	header li,
 	header nav,
@@ -288,24 +277,226 @@ footer{
 		text-align: center;
 		width: 100%;
 	}
+	
+	/* Header */
+	
 	header{
 		padding-bottom: 20px;
 	}
+	
+	/* Welcome */
+	
 	#welcome{
-	min-height: 731px;
-	background: url('../img/tlo.jpg') no-repeat 50% -300px;
-	text-align: center;
-	color: #DDDDDD;
-}
+		min-height: 731px;
+		background: url('../img/tlo.jpg') no-repeat 50% -300px;
+		text-align: center;
+		color: #DDDDDD;
+	}
 	#welcome h1{
 		text-align: center;
-		padding-top: 180px;
+		padding-top: 230px;
+		font-size: 60px;
+	}
+	#welcome p{
+		font-size: 17px;
+	}
+	
+	/* About */
+	
+	#about{
+		float: none;
+		text-align: center;
+		width: 100%;
+		min-height: 1000px;
+	}
+	#about .box img{
+		margin-top: 70px;
+		float: none;
+		text-align: center;
+		width: 40%;
+	}
+	
+	/* About -> Aside */
+	
+	aside#description{
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin-top: 25px;
+	}
+	aside#description h1{
+		font-size: 45px;
+		margin-bottom: 30px;
+	}
+	aside#description p{
+		font-size: 35px;
+	}
+	
+	/* Knowledge */
+	
+	#knowledge .box-2 {
+		margin-bottom: 60px;
 	}
 	#knowledge h1{
-		padding-top: 50px;
+		margin-top: 50px;
 		font-size: 50px;
 	}
+	
+	/* Projects */
+	
+	#projects .box-2 p{
+		margin-top: 0px;
+	}
+	#projects .box-2{
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#projects h1{
+		margin-top: 50px;
+		font-size: 60px;
+	}
+}
+
+@media(max-width: 1024px){
+	/* Global */
+	
+	header #menu,
+	header li,
+	header nav,
+	header nav li,
+	#knowledge .box,
+	#knowledge .box-2,
+	#projects .box{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	/* Header */
+	
+	header{
+		padding-bottom: 20px;
+	}
+	
+	/* Welcome */
+	
+	#welcome{
+		min-height: 731px;
+		background: url('../img/tlo.jpg') no-repeat 50% -300px;
+		text-align: center;
+		color: #DDDDDD;
+	}
+	#welcome h1{
+		text-align: center;
+		padding-top: 230px;
+		font-size: 60px;
+	}
+	#welcome p{
+		font-size: 17px;
+	}
+	
+	/* About */
+	
 	#about{
+		float: none;
+		text-align: center;
+		width: 100%;
+		min-height: 1030px;
+	}
+	#about .box img{
+		margin-top: 70px;
+		float: none;
+		text-align: center;
+		width: 50%;
+	}
+	
+	/* About -> Aside */
+	
+	aside#description{
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin-top: 25px;
+	}
+	aside#description h1{
+		font-size: 45px;
+		margin-bottom: 30px;
+	}
+	aside#description p{
+		font-size: 35px;
+	}
+		
+	/* Knowledge */
+	
+	#knowledge .box-2 {
+		margin-bottom: 60px;
+	}
+	#knowledge h1{
+		margin-top: 50px;
+		font-size: 50px;
+	}
+	
+	/* Projects */
+	
+	#projects .box-2 p{
+		margin-top: 0px;
+	}
+	#projects .box-2{
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#projects h1{
+		margin-top: 50px;
+		font-size: 60px;
+	}
+}
+
+@media(max-width: 768px){
+	/* Global */
+	
+	header #menu,
+	header li,
+	header nav,
+	header nav li,
+	#knowledge .box,
+	#knowledge .box-2,
+	#projects .box{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	/* Header */
+	
+	header{
+		padding-bottom: 20px;
+	}
+	
+	/* Welcome */
+	
+	#welcome{
+		min-height: 731px;
+		background: url('../img/tlo.jpg') no-repeat 50% -300px;
+		text-align: center;
+		color: #DDDDDD;
+	}
+	#welcome h1{
+		text-align: center;
+		padding-top: 230px;
+		font-size: 40px;
+	}
+	#welcome p{
+		font-size: 13px;
+	}
+	
+	/* About */
+	
+	#about{
+		min-height: 720px;
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -314,8 +505,11 @@ footer{
 		margin-top: 70px;
 		float: none;
 		text-align: center;
-		max-width: 55%;
+		min-width: 55%;
 	}
+	
+	/* About -> Aside */
+	
 	aside#description{
 		float: none;
 		text-align: center;
@@ -329,6 +523,19 @@ footer{
 	aside#description p{
 		font-size: 20px;
 	}
+	
+	/* Knowledge */
+	
+	#knowledge .box-2 {
+		margin-bottom: 60px;
+	}
+	#knowledge h1{
+		margin-top: 50px;
+		font-size: 50px;
+	}
+	
+	/* Projects */
+	
 	#projects .box-2 p{
 		margin-top: 0px;
 	}
@@ -339,21 +546,107 @@ footer{
 		margin-top: 60px;
 	}
 	#projects h1{
-	padding-top: 45px;
-	font-size: 60px;
+		margin-top: 50px;
+		font-size: 60px;
 	}
 }
-@media(max-width: 768px){
+
+@media(max-width: 457px){
+	/* Global */
+	
+	header #menu,
+	header li,
+	header nav,
+	header nav li,
+	#knowledge .box,
+	#knowledge .box-2,
+	#projects .box{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	/* Header */
+	
+	header{
+		padding-bottom: 20px;
+	}
+	
+	/* Welcome */
+	
 	#welcome{
-	min-height: 731px;
-	background: url('../img/tlo.jpg') no-repeat 50% -300px;
-	text-align: center;
-	color: #DDDDDD;
+		min-height: 731px;
+		background: url('../img/tlo.jpg') no-repeat 50% -300px;
+		text-align: center;
+		color: #DDDDDD;
+	}
+	#welcome h1{
+		text-align: center;
+		padding-top: 230px;
+		font-size: 30px;
+	}
+	#welcome p{
+		font-size: 10px;
+	}
+	
+	/* About */
+	
+	#about{
+		min-height: 740px;
+		float: none;
+		text-align: center;
+		width: 100%;
 	}
 	#about .box img{
 		margin-top: 70px;
 		float: none;
 		text-align: center;
-		min-width: 55%;
+		min-width: 60%;
+	}
+	
+	/* About -> Aside */
+	
+	aside#description{
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin-top: 25px;
+	}
+	aside#description h1{
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	aside#description p{
+		font-size: 20px;
+	}
+	
+	/* Knowledge */
+	
+	#knowledge{
+		min-height: 1040px;
+	}
+	
+	#knowledge .box-2 {
+		margin-bottom: 60px;
+	}
+	#knowledge h1{
+		margin-top: 50px;
+		font-size: 50px;
+	}
+	
+	/* Projects */
+	
+	#projects .box-2 p{
+		margin-top: 0px;
+	}
+	#projects .box-2{
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-top: 60px;
+	}
+	#projects h1{
+		margin-top: 50px;
+		font-size: 60px;
 	}
 }
