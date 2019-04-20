@@ -36,6 +36,7 @@ body{
 	font-size: 20px;
 }
 
+
 /*Header*/
 
 header{
@@ -81,6 +82,26 @@ header .current a{
 header a:hover{
 	color: #ffffff;
 	font-weight: bold;
+}
+
+/* Header Hamburger Menu */
+
+
+header nav .rwd-menu{
+	margin: 0 30px 0 0;
+}
+
+header nav label{
+	font-size: 30px;
+	line-height: 20px;
+	display: none;
+	width: 26px;
+	float: right;
+	margin-top: -33px;
+}
+
+header nav .hamburger #toggle {
+	display: none;
 }
 
 /* Welcome */
@@ -505,6 +526,10 @@ footer{
 		padding-bottom: 20px;
 	}
 	
+	header a{
+		font-size: 13px;
+	}
+	
 	/* Welcome */
 	
 	#welcome{
@@ -596,7 +621,7 @@ footer{
 	}
 }
 
-@media(max-width: 550px){
+@media(max-width: 601px){
 	/* Global */
 	
 	header #menu,
@@ -619,12 +644,40 @@ footer{
 		line-height: 25px;
 		font-size: 15px;
 	}
-	
+ 
 	/* Header */
 	
 	header{
-		padding-bottom: 20px;
+		min-height: 0px;
 	}
+	
+	header nav{
+		margin-top: 0px;
+	}
+	
+	/* Header Hamburger Menu */
+	
+	header nav label{
+		display: block;
+		cursor: pointer;
+	}
+	
+	.rwd-menu{
+		text-align: center;
+		width: 100%;
+		display: none;
+	}
+	
+	.rwd-menu a{
+		display: block;
+		border-bottom: 1px solid #339999;
+		margin: 0;
+	}
+	
+	header nav .hamburger #toggle:checked + .rwd-menu{
+		display: block;
+	}
+	
 	
 	/* Welcome */
 	
