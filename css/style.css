@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -16,6 +20,20 @@ body{
 	width: 80%;
 	margin: auto;
 	overlow: hidden;
+}
+
+.gotopbtn{
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	background: #339999;
+	bottom: 35px;
+	right: 45px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	color: #DDDDDD;
+	font-size: 20px;
 }
 
 /*Header*/
@@ -278,6 +296,11 @@ footer{
 		width: 100%;
 	}
 	
+	.gotopbtn{
+		bottom: 15px;
+		right: 45px;
+	}
+	
 	/* Header */
 	
 	header{
@@ -289,8 +312,6 @@ footer{
 	#welcome{
 		min-height: 731px;
 		background: url('../img/tlo.jpg') no-repeat 50% -300px;
-		text-align: center;
-		color: #DDDDDD;
 	}
 	#welcome h1{
 		text-align: center;
@@ -374,6 +395,11 @@ footer{
 		width: 100%;
 	}
 	
+	.gotopbtn{
+		bottom: 15px;
+		right: 25px;
+	}
+	
 	/* Header */
 	
 	header{
@@ -385,8 +411,6 @@ footer{
 	#welcome{
 		min-height: 731px;
 		background: url('../img/tlo.jpg') no-repeat 50% -300px;
-		text-align: center;
-		color: #DDDDDD;
 	}
 	#welcome h1{
 		text-align: center;
@@ -470,6 +494,11 @@ footer{
 		width: 100%;
 	}
 	
+	.gotopbtn{
+		bottom: 15px;
+		right: 15px;
+	}
+	
 	/* Header */
 	
 	header{
@@ -481,8 +510,6 @@ footer{
 	#welcome{
 		min-height: 731px;
 		background: url('../img/tlo.jpg') no-repeat 50% -300px;
-		text-align: center;
-		color: #DDDDDD;
 	}
 	#welcome h1{
 		text-align: center;
@@ -551,7 +578,7 @@ footer{
 	}
 }
 
-@media(max-width: 457px){
+@media(max-width: 550px){
 	/* Global */
 	
 	header #menu,
@@ -566,6 +593,15 @@ footer{
 		width: 100%;
 	}
 	
+	.gotopbtn{
+		width: 25px;
+		height: 25px;
+		bottom: 20px;
+		right: 5px;
+		line-height: 25px;
+		font-size: 15px;
+	}
+	
 	/* Header */
 	
 	header{
@@ -575,15 +611,13 @@ footer{
 	/* Welcome */
 	
 	#welcome{
-		min-height: 731px;
-		background: url('../img/tlo.jpg') no-repeat 50% -300px;
-		text-align: center;
-		color: #DDDDDD;
+		min-height: 531px;
+		background: url('../img/tlo.jpg') no-repeat 50% -500px;
 	}
 	#welcome h1{
 		text-align: center;
 		padding-top: 230px;
-		font-size: 33px;
+		font-size: 30px;
 	}
 	#welcome p{
 		font-size: 14px;
@@ -592,7 +626,7 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 740px;
+		min-height: 710px;
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -617,7 +651,7 @@ footer{
 		margin-bottom: 30px;
 	}
 	aside#description p{
-		font-size: 20px;
+		font-size: 19px;
 	}
 	
 	/* Knowledge */
@@ -631,10 +665,19 @@ footer{
 	}
 	#knowledge h1{
 		margin-top: 50px;
-		font-size: 50px;
+		font-size: 40px;
 	}
 	
 	/* Projects */
+	
+	#projects h1{
+		margin-top: 50px;
+		font-size: 40px;
+	}
+	
+	#projects .box img{
+		width: 250px;
+	}
 	
 	#projects .box-2 p{
 		margin-top: 0px;
@@ -645,8 +688,29 @@ footer{
 		text-align: center;
 		margin-top: 60px;
 	}
-	#projects h1{
-		margin-top: 50px;
-		font-size: 60px;
+}
+
+@media(max-width: 320px){
+	
+	/* Knowledge */
+	
+	#knowledge h1{
+		margin-top: 70px;
+		font-size: 35px;
 	}
+	#knowledge p{
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	#knowledge .box img, .box-2 img{
+		width: 90px;
+	}
+	
+	/* Projects */
+	
+	#projects .box img{
+		width: 220px;
+	}
+	
+	
 }
