@@ -772,6 +772,10 @@ footer{
 		font-size: 40px;
 	}
 	
+	#projects .box p{
+		font-size: 16px;
+	}
+	
 	#projects .box img{
 		width: 250px;
 	}
@@ -792,7 +796,13 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 1020px;
+		min-height: 770px;
+	}
+	
+	/* About -> Aside */
+	
+	aside#description p{
+		font-size: 15px;
 	}
 	
 	/* Knowledge */
@@ -814,6 +824,10 @@ footer{
 	}
 	
 	/* Projects */
+	
+	#projects .box p{
+		font-size: 14px;
+	}
 	
 	#projects .box img{
 		width: 220px;
