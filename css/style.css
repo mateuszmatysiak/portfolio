@@ -153,37 +153,37 @@ header nav .hamburger #toggle {
 /* About */
 
 #about{
-	min-height: 940px;
+	min-height: 845px;
 	background-color: #DDDDDD;
 }
 
 #about .box img{
 	margin-top: 100px;
-	width: 700px;
+	width: 650px;
 }
 
 /* About -> Aside */
 
 aside#description{
-	margin-top: -550px;
+	margin-top: -590px;
 	float: right;
-	width: 40%;
+	width: 44%;
+	color: #0b0e15;
 }
 
 aside#description h1{
 	font-size: 55px;
-	color: #0b0e15;
 }
 
 aside#description p {
-	font-size: 25px;
-	color: #0b0e15;
+	margin-top: 35px;
+	font-size: 24.5px;
 }
 
 /* Knowledge */
 
 #knowledge {
-	min-height: 940px;
+	min-height: 1200px;
 	border-top: #339999 1px solid;
 	border-bottom: #339999 1px solid;
 	background: #35424a;
@@ -193,11 +193,11 @@ aside#description p {
 
 #knowledge h1{
 	margin-top: 70px;
-	font-size: 50px;
+	font-size: 45px;
 }
 
 #knowledge p{
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: 15px;
 }
 
@@ -208,19 +208,12 @@ aside#description p {
 	margin-top: 50px;
 }
 
-#knowledge .box-2{
-	float: left;
-	width: 48%;
-	padding: 10px;
-	margin-top: 50px;
+#knowledge .box h3{
+	font-size: 20px;
 }
 
-#knowledge .box h3, .box-2 h3{
-	font-size: 25px;
-}
-
-#knowledge .box img, .box-2 img{
-	width: 130px;
+#knowledge .box img{
+	width: 100px;
 }
 
 /* Projects */
@@ -268,9 +261,9 @@ aside#description p {
 
 #projects .box-2 {
 	float: left;
-	width: 100%;
 	text-align: center;
 	margin-top: 120px;
+	width: 100%;
 }
 
 #projects .box-2 p{
@@ -346,10 +339,10 @@ footer{
 	/* About */
 	
 	#about{
+		min-height: 1250px;
 		float: none;
 		text-align: center;
 		width: 100%;
-		min-height: 1000px;
 	}
 	#about .box img{
 		margin-top: 70px;
@@ -376,6 +369,9 @@ footer{
 	
 	/* Knowledge */
 	
+	#knowledge {
+	min-height: 1850px;
+	}
 	#knowledge .box-2 {
 		margin-bottom: 60px;
 	}
@@ -445,10 +441,10 @@ footer{
 	/* About */
 	
 	#about{
+		min-height: 1380px;
 		float: none;
 		text-align: center;
 		width: 100%;
-		min-height: 1030px;
 	}
 	#about .box img{
 		margin-top: 70px;
@@ -475,6 +471,9 @@ footer{
 		
 	/* Knowledge */
 	
+	#knowledge {
+	min-height: 1990px;
+	}
 	#knowledge .box-2 {
 		margin-bottom: 60px;
 	}
@@ -566,7 +565,7 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 720px;
+		min-height: 900px;
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -575,7 +574,7 @@ footer{
 		margin-top: 70px;
 		float: none;
 		text-align: center;
-		min-width: 55%;
+		width: 55%;
 	}
 	
 	/* About -> Aside */
@@ -596,6 +595,9 @@ footer{
 	
 	/* Knowledge */
 	
+	#knowledge {
+	min-height: 2100px;
+	}
 	#knowledge .box-2 {
 		margin-bottom: 60px;
 	}
@@ -680,7 +682,7 @@ footer{
 	
 	
 	/* Welcome */
-	
+
 	#welcome{
 		min-height: 531px;
 		background: url('../img/tlo.jpg') no-repeat 50% -500px;
@@ -715,7 +717,7 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 710px;
+		min-height: 950px;
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -746,7 +748,7 @@ footer{
 	/* Knowledge */
 	
 	#knowledge{
-		min-height: 1040px;
+		min-height: 2050px;
 	}
 	
 	#knowledge h1{
@@ -785,9 +787,19 @@ footer{
 	}
 }
 
-@media(max-width: 320px){
+@media(max-width: 375px){
+	
+	/* About */
+	
+	#about{
+		min-height: 960px;
+	}
 	
 	/* Knowledge */
+	
+	#knowledge{
+		min-height: 2180px;
+	}
 	
 	#knowledge h1{
 		margin-top: 50px;
@@ -806,6 +818,20 @@ footer{
 	#projects .box img{
 		width: 220px;
 	}
+}
+
+@media(max-width: 355px){
 	
+	/* About */
 	
+	#about{
+		min-height: 1070px;
+	}
+	
+	/* Knowledge */
+	
+	#knowledge{
+		min-height: 2300px;
+	}
+
 }
