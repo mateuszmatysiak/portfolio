@@ -792,7 +792,7 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 960px;
+		min-height: 1000px;
 	}
 	
 	/* Knowledge */
@@ -825,13 +825,13 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 1125px;
+		min-height: 1070px;
 	}
 	
 	/* Knowledge */
 	
 	#knowledge{
-		min-height: 2300px;
+		min-height: 2200px;
 	}
 
 }
