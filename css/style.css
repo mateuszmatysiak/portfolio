@@ -606,8 +606,8 @@ footer{
 	/* Welcome */
 
 	#welcome{
-		min-height: 531px;
-		background: url('../img/tlo.jpg') no-repeat 50% -500px;
+		min-height: 481px;
+		background: url('../img/tlo.jpg') no-repeat 50% -550px;
 	}
 	#welcome h1{
 		padding-top: 130px;
@@ -692,10 +692,12 @@ footer{
 	}
 }
 
-@media(max-width: 375px){
+@media(max-width: 386px){
 	
 	/* Welcome */
-	
+	#welcome h1{
+		font-size: 30px;
+	}
 	#welcome p{
 		font-size: 14px;
 	}
