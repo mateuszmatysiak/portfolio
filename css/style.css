@@ -827,7 +827,7 @@ footer{
 		font-size: 30px;
 	}
 	#welcome p{
-		font-size: 12px;
+		font-size: 14px;
 	}
 	
 	/* About */
@@ -866,21 +866,16 @@ footer{
 		font-size: 14px;
 	}
 	
+	#projects .box h3{
+		font-size: 22px;
+	}
+	
 	#projects .box img{
 		width: 220px;
 	}
 }
 
 @media(max-width: 320px){
-	
-	/* Welcome */
-	
-	#welcome h1{
-		font-size: 30px;
-	}
-	#welcome p{
-		font-size: 12px;
-	}
 	
 	/* About */
 	
@@ -905,9 +900,5 @@ footer{
 	#projects .box p{
 		font-size: 12px;
 	}
-	
-	#projects .box h3{
-		font-size: 22px;
-	}
-	
+		
 }
