@@ -296,9 +296,11 @@ footer{
 /* Media Queries */
 
 @media(max-width: 1875px){
+	
+	/* Knowledge */
+	
 	#knowledge p{
 		font-size: 12px;
-		margin-top: 15px;
 	}
 }
 
@@ -879,6 +881,14 @@ footer{
 	
 	#projects .box img{
 		width: 220px;
+	}
+}
+
+@media(max-width: 375px){
+	/* Knowledge */
+	
+	#knowledge{
+		min-height: 2080px;
 	}
 }
 
