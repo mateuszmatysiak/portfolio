@@ -606,7 +606,7 @@ footer{
 	/* Welcome */
 
 	#welcome{
-		min-height: 341px;
+		min-height: 441px;
 		background: url('../img/tlo.jpg') no-repeat 50% -500px;
 	}
 	#welcome h1{
