@@ -819,6 +819,17 @@ footer{
 
 @media(max-width: 375px){
 	
+	/* Welcome */
+	
+	#welcome h1{
+		text-align: center;
+		padding-top: 130px;
+		font-size: 30px;
+	}
+	#welcome p{
+		font-size: 13px;
+	}
+	
 	/* About */
 	
 	#about{
