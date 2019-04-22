@@ -295,7 +295,7 @@ footer{
 
 /* Media Queries */
 
-@media(max-width: 1680px){
+@media(max-width: 1440px){
 	/* Global */
 	
 	header #menu,
@@ -320,6 +320,9 @@ footer{
 	header{
 		padding-bottom: 20px;
 	}
+	header a{
+	font-size: 22px;
+}
 	
 	/* Welcome */
 	
@@ -330,16 +333,16 @@ footer{
 	#welcome h1{
 		text-align: center;
 		padding-top: 230px;
-		font-size: 60px;
+		font-size: 70px;
 	}
 	#welcome p{
-		font-size: 17px;
+		font-size: 25px;
 	}
 	
 	/* About */
 	
 	#about{
-		min-height: 1250px;
+		min-height: 1330px;
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -360,17 +363,17 @@ footer{
 		margin-top: 25px;
 	}
 	aside#description h1{
-		font-size: 45px;
+		font-size: 65px;
 		margin-bottom: 30px;
 	}
 	aside#description p{
-		font-size: 35px;
+		font-size: 39px;
 	}
 	
 	/* Knowledge */
 	
 	#knowledge {
-	min-height: 1850px;
+	min-height: 2140px;
 	}
 	#knowledge .box-2 {
 		margin-bottom: 60px;
@@ -379,21 +382,35 @@ footer{
 		margin-top: 50px;
 		font-size: 50px;
 	}
+	#knowledge p{
+		font-size: 25px;
+	}
 	
 	/* Projects */
 	
-	#projects .box-2 p{
-		margin-top: 0px;
+	#projects h1{
+		margin-top: 50px;
+		font-size: 60px;
 	}
+	
+	#projects .box p{
+		font-size: 25px;
+	}
+	#projects .box h3{
+		font-size: 35px;
+	}
+	
 	#projects .box-2{
 		float: left;
 		width: 100%;
 		text-align: center;
 		margin-top: 60px;
 	}
-	#projects h1{
-		margin-top: 50px;
-		font-size: 60px;
+	#projects .box-2 p{
+		font-size: 35px;
+	}
+	#projects .box-2 img{
+		width: 70px;
 	}
 }
 
@@ -441,7 +458,7 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 1380px;
+		min-height: 1180px;
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -466,13 +483,13 @@ footer{
 		margin-bottom: 30px;
 	}
 	aside#description p{
-		font-size: 35px;
+		font-size: 30px;
 	}
 		
 	/* Knowledge */
 	
 	#knowledge {
-	min-height: 1990px;
+	min-height: 2370px;
 	}
 	#knowledge .box-2 {
 		margin-bottom: 60px;
@@ -526,7 +543,7 @@ footer{
 	}
 	
 	header a{
-		font-size: 13px;
+		font-size: 17px;
 	}
 	
 	/* Welcome */
@@ -538,10 +555,10 @@ footer{
 	#welcome h1{
 		text-align: center;
 		padding-top: 230px;
-		font-size: 40px;
+		font-size: 55px;
 	}
 	#welcome p{
-		font-size: 13px;
+		font-size: 23px;
 	}
 	
 	/* Contact */
@@ -590,13 +607,13 @@ footer{
 		margin-bottom: 30px;
 	}
 	aside#description p{
-		font-size: 20px;
+		font-size: 21px;
 	}
 	
 	/* Knowledge */
 	
 	#knowledge {
-	min-height: 2100px;
+	min-height: 2400px;
 	}
 	#knowledge .box-2 {
 		margin-bottom: 60px;
@@ -604,6 +621,9 @@ footer{
 	#knowledge h1{
 		margin-top: 50px;
 		font-size: 50px;
+	}
+	#knowledge p{
+		font-size: 22px;
 	}
 	
 	/* Projects */
@@ -623,7 +643,7 @@ footer{
 	}
 }
 
-@media(max-width: 601px){
+@media(max-width: 425px){
 	/* Global */
 	
 	header #menu,
@@ -690,10 +710,10 @@ footer{
 	#welcome h1{
 		text-align: center;
 		padding-top: 130px;
-		font-size: 30px;
+		font-size: 35px;
 	}
 	#welcome p{
-		font-size: 14px;
+		font-size: 17px;
 	}
 	
 	/* Contact */
@@ -717,7 +737,7 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 950px;
+		min-height: 740px;
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -738,11 +758,11 @@ footer{
 		margin-top: 25px;
 	}
 	aside#description h1{
-		font-size: 40px;
+		font-size: 30px;
 		margin-bottom: 30px;
 	}
 	aside#description p{
-		font-size: 19px;
+		font-size: 15px;
 	}
 	
 	/* Knowledge */
@@ -789,6 +809,12 @@ footer{
 		text-align: center;
 		margin-top: 60px;
 	}
+	#projects .box-2 p{
+		font-size: 25px;
+	}
+	#projects .box-2 img{
+		width: 50px;
+	}
 }
 
 @media(max-width: 375px){
@@ -796,19 +822,19 @@ footer{
 	/* About */
 	
 	#about{
-		min-height: 770px;
+		min-height: 700px;
 	}
 	
 	/* About -> Aside */
 	
 	aside#description p{
-		font-size: 15px;
+		font-size: 14px;
 	}
 	
 	/* Knowledge */
 	
 	#knowledge{
-		min-height: 2180px;
+		min-height: 2030px;
 	}
 	
 	#knowledge h1{
@@ -816,7 +842,7 @@ footer{
 		font-size: 35px;
 	}
 	#knowledge p{
-		font-size: 14px;
+		font-size: 13px;
 		margin-top: 15px;
 	}
 	#knowledge .box img, .box-2 img{
@@ -834,17 +860,43 @@ footer{
 	}
 }
 
-@media(max-width: 355px){
+@media(max-width: 320px){
+	
+	/* Welcome */
+	
+	#welcome h1{
+		font-size: 30px;
+	}
+	#welcome p{
+		font-size: 12px;
+	}
 	
 	/* About */
 	
 	#about{
-		min-height: 820px;
+		min-height: 640px;
+	}
+	
+	/* About -> Aside */
+	
+	aside#description p{
+		font-size: 12px;
 	}
 	
 	/* Knowledge */
 	
 	#knowledge{
-		min-height: 2300px;
+		min-height: 2120px;
 	}
+	
+	/* Projects */
+	
+	#projects .box p{
+		font-size: 12px;
+	}
+	
+	#projects .box h3{
+		font-size: 22px;
+	}
+	
 }
