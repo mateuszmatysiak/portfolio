@@ -193,11 +193,11 @@ aside#description p {
 
 #knowledge h1{
 	margin-top: 70px;
-	font-size: 45px;
+	font-size: 60px;
 }
 
 #knowledge p{
-	font-size: 18px;
+	font-size: 14px;
 	margin-top: 15px;
 }
 
@@ -209,7 +209,7 @@ aside#description p {
 }
 
 #knowledge .box h3{
-	font-size: 20px;
+	font-size: 22px;
 }
 
 #knowledge .box img{
@@ -295,7 +295,14 @@ footer{
 
 /* Media Queries */
 
-@media(max-width: 1440px){
+@media(max-width: 1875px){
+	#knowledge p{
+		font-size: 12px;
+		margin-top: 15px;
+	}
+}
+
+@media(max-width: 1605px){
 	/* Global */
 	
 	header #menu,
