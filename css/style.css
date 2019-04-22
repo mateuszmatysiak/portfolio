@@ -606,8 +606,8 @@ footer{
 	/* Welcome */
 
 	#welcome{
-		min-height: 361px;
-		background: url('../img/tlo.jpg') no-repeat 50% -550px;
+		min-height: 341px;
+		background: url('../img/tlo.jpg') no-repeat 50% -500px;
 	}
 	#welcome h1{
 		padding-top: 130px;
@@ -667,7 +667,7 @@ footer{
 	}
 		
 	#knowledge .box img, .box-2 img{
-		width: 90px;
+		width: 80px;
 	}
 	
 	/* Projects */
